@@ -2,11 +2,9 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel 
 import joblib 
 import numpy as np 
-import gdown
-import os
 
 app = FastAPI(    
-    title="ML Model API",    
+    title="Binary Network Intrusion Detection",    
     description="Machine Learning Model deployed using FastAPI",    
     version="1.0.0" 
     )
